@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css/style.css">
+    <link rel="shortcut icon" href="./images/vowels-120513053826-phpapp01-thumbnail.webp" type="image/x-icon">
+    <title>Vowel Words Checker/Counter</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Vowel Words Checker/Counter:</h1>
+    <p>Enter a sentence to find words containing/checker vowels:</p>
+    <input type="text" id="inputText" placeholder="Enter a word or sentence...." />
+    <br>
+    <button onclick="checkVowels()">Check Vowels Words</button>
+    <button class="clear-btn" onclick="clearInput()">Clear</button>
+    <div id="output">
+        <h3>Result:</h3>
+        <p id="vowelWords"></p>
+        <p id="totalCount"></p>
+        <p id="error"></p>
+      </div>
+</div>
+<script src="./apps.js/apps.js"></script>
+</body>
+</html>

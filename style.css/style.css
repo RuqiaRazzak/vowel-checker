@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(to right,pink,rgb(236, 236, 9),skyblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:black;
+}
+.container{
+    text-align: center;
+    background-color: rgb(230, 131, 61);
+    background-image: url(../images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 50px;
+    padding: 25px;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    
+}
+h1{
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.1rem;
+}
+input {
+    width: 50%;
+    height: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button{
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.clear-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+  
+button:hover {
+     opacity: 0.9;
+}
+
+  #output {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  #vowelWords {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  #totalCount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e63946;
+  }
+  
